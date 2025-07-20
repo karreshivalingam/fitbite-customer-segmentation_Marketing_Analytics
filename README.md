@@ -58,7 +58,7 @@ A total of **200 customers** were simulated for the analysis.
 ### 🔹 1. Customer Segmentation Scatter Plot
 Shows the relationship between **Weekly Orders** and **Monthly Spend**, colored by segment.
 
-![Cluster Scatter](plots/fitbite_cluster_scatter.png)
+![Cluster Scatter](plots/Avg weekly orders.png)
 
 ---
 
