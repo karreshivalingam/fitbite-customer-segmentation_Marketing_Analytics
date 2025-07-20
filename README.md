@@ -1,5 +1,3 @@
-# fitbite-customer-segmentation_Marketing_Analytics
-
 # 🥗 FitBite Customer Segmentation Project
 
 This project focuses on applying **K-Means Clustering** to segment customers of a fictional healthy meal subscription service called **FitBite**. The goal is to identify distinct customer groups based on their purchase behavior and preferences and suggest tailored marketing strategies.
@@ -55,14 +53,21 @@ A total of **200 customers** were simulated for the analysis.
 
 ## 📈 Visualizations
 
-### 🔹 1. Customer Segmentation Scatter Plot
-Shows the relationship between **Weekly Orders** and **Monthly Spend**, colored by segment.
+### 🔹 1. Optimal Clusters Plot (Elbow Method)
+Shows the within-cluster sum of squares (WSS) to help choose the best number of clusters (k).
 
-![Cluster Scatter](plots/Avg weekly orders.png)
+![Elbow Method](plots/fitbite_elbow_method.png)
 
 ---
 
-### 🔹 2. Average Monthly Spend by Segment
+### 🔹 2. Customer Segmentation Scatter Plot
+Shows the relationship between **Weekly Orders** and **Monthly Spend**, colored by segment.
+
+![Cluster Scatter](plots/fitbite_cluster_scatter.png)
+
+---
+
+### 🔹 3. Average Monthly Spend by Segment
 
 Displays the spending behavior of each customer group.
 
@@ -70,7 +75,7 @@ Displays the spending behavior of each customer group.
 
 ---
 
-### 🔹 3. Average Weekly Orders by Segment
+### 🔹 4. Average Weekly Orders by Segment
 
 Highlights the frequency of engagement from each cluster.
 
@@ -105,8 +110,8 @@ Highlights the frequency of engagement from each cluster.
 ## 📂 Project Files
 
 - `fitbite_segmentation.R`: R script with data simulation, clustering, and plots
-- `FitBite_Segmentation_Report.pdf`: Final PDF report (if available)
 - `plots/`: Folder containing all visualizations (saved as `.png`)
+- `FitBite_Segmentation_Report.pdf` (optional): Final report if available
 
 ---
 
@@ -122,8 +127,5 @@ Highlights the frequency of engagement from each cluster.
 
 If you liked this project or have feedback, feel free to connect!
 
-> ✅ Ready to use in your [LinkedIn post](https://linkedin.com)  
-> 🔁 Fork or star the repo to show support!
 
----
-
+------Thank You--------
