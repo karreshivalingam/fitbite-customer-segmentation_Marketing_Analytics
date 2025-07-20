@@ -71,7 +71,7 @@ Shows the relationship between **Weekly Orders** and **Monthly Spend**, colored 
 
 Displays the spending behavior of each customer group.
 
-![Avg Spend](plots/fitbite_avg_monthly_spend.png)
+![Avg Spend](plots/fitbite_avg_monthly.png)
 
 ---
 
@@ -79,7 +79,7 @@ Displays the spending behavior of each customer group.
 
 Highlights the frequency of engagement from each cluster.
 
-![Avg Orders](plots/fitbite_avg_weekly_orders.png)
+![Avg Orders](plots/fitbite_avg_weekly_order.png)
 
 ---
 
